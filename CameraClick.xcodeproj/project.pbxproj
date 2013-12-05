@@ -21,6 +21,9 @@
 		BC647261184CC5B500135651 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC647243184CC5B500135651 /* UIKit.framework */; };
 		BC647269184CC5B500135651 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC647267184CC5B500135651 /* InfoPlist.strings */; };
 		BC64726B184CC5B500135651 /* CameraClickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC64726A184CC5B500135651 /* CameraClickTests.m */; };
+		BCE4C3CD184F09C500A6629A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE4C3CB184F09A900A6629A /* CoreMedia.framework */; };
+		BCE4C3CE184F09C500A6629A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE4C3C7184EFE2F00A6629A /* MediaPlayer.framework */; };
+		BCE4C3CF184F09C500A6629A /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE4C3C9184F097D00A6629A /* MediaToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		BC647266184CC5B500135651 /* CameraClickTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CameraClickTests-Info.plist"; sourceTree = "<group>"; };
 		BC647268184CC5B500135651 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC64726A184CC5B500135651 /* CameraClickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraClickTests.m; sourceTree = "<group>"; };
+		BCE4C3C7184EFE2F00A6629A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BCE4C3C9184F097D00A6629A /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		BCE4C3CB184F09A900A6629A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE4C3CD184F09C500A6629A /* CoreMedia.framework in Frameworks */,
+				BCE4C3CE184F09C500A6629A /* MediaPlayer.framework in Frameworks */,
+				BCE4C3CF184F09C500A6629A /* MediaToolbox.framework in Frameworks */,
 				BC647242184CC5B500135651 /* CoreGraphics.framework in Frameworks */,
 				BC647244184CC5B500135651 /* UIKit.framework in Frameworks */,
 				BC647240184CC5B500135651 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,9 @@
 		BC64723E184CC5B500135651 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BCE4C3CB184F09A900A6629A /* CoreMedia.framework */,
+				BCE4C3C9184F097D00A6629A /* MediaToolbox.framework */,
+				BCE4C3C7184EFE2F00A6629A /* MediaPlayer.framework */,
 				BC64723F184CC5B500135651 /* Foundation.framework */,
 				BC647241184CC5B500135651 /* CoreGraphics.framework */,
 				BC647243184CC5B500135651 /* UIKit.framework */,
@@ -318,7 +330,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Aptara, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aptara, Inc.";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -334,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -358,7 +371,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Aptara, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aptara, Inc.";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -368,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -383,6 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraClick/CameraClick-Prefix.pch";
 				INFOPLIST_FILE = "CameraClick/CameraClick-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -396,6 +411,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraClick/CameraClick-Prefix.pch";
 				INFOPLIST_FILE = "CameraClick/CameraClick-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -462,6 +478,7 @@
 				BC647270184CC5B500135651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC647271184CC5B500135651 /* Build configuration list for PBXNativeTarget "CameraClickTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +487,7 @@
 				BC647273184CC5B500135651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
