@@ -18,21 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C69-dh-yXf">
-                                <rect key="frame" x="0.0" y="-95" width="768" height="953"/>
+                                <rect key="frame" x="0.0" y="-95" width="768" height="1039"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6c-6t-dbD">
-                                <rect key="frame" x="314" y="866" width="140" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Start Camera">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="shoot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bEU-ih-qhN"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12S-as-XY0">
-                                <rect key="frame" x="331" y="904" width="106" height="30"/>
+                                <rect key="frame" x="200" y="974" width="106" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Open Gallery">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -47,7 +37,6 @@
                     <connections>
                         <outlet property="cameraView" destination="C69-dh-yXf" id="bai-gU-l4z"/>
                         <outlet property="galleryBtn" destination="12S-as-XY0" id="OU5-HY-uwT"/>
-                        <outlet property="startBtn" destination="q6c-6t-dbD" id="6QN-Zg-DnI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -21,6 +21,7 @@
 		BC647261184CC5B500135651 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC647243184CC5B500135651 /* UIKit.framework */; };
 		BC647269184CC5B500135651 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC647267184CC5B500135651 /* InfoPlist.strings */; };
 		BC64726B184CC5B500135651 /* CameraClickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC64726A184CC5B500135651 /* CameraClickTests.m */; };
+		BCE3B00518560BE500B38D76 /* movie.mov in Resources */ = {isa = PBXBuildFile; fileRef = BCE3B00418560BE500B38D76 /* movie.mov */; };
 		BCE4C3CD184F09C500A6629A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE4C3CB184F09A900A6629A /* CoreMedia.framework */; };
 		BCE4C3CE184F09C500A6629A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE4C3C7184EFE2F00A6629A /* MediaPlayer.framework */; };
 		BCE4C3CF184F09C500A6629A /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE4C3C9184F097D00A6629A /* MediaToolbox.framework */; };
@@ -56,6 +57,7 @@
 		BC647266184CC5B500135651 /* CameraClickTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CameraClickTests-Info.plist"; sourceTree = "<group>"; };
 		BC647268184CC5B500135651 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC64726A184CC5B500135651 /* CameraClickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraClickTests.m; sourceTree = "<group>"; };
+		BCE3B00418560BE500B38D76 /* movie.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = movie.mov; sourceTree = "<group>"; };
 		BCE4C3C7184EFE2F00A6629A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		BCE4C3C9184F097D00A6629A /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
 		BCE4C3CB184F09A900A6629A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -138,6 +140,7 @@
 		BC647246184CC5B500135651 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BCE3B00418560BE500B38D76 /* movie.mov */,
 				BC647247184CC5B500135651 /* CameraClick-Info.plist */,
 				BC647248184CC5B500135651 /* InfoPlist.strings */,
 				BC64724B184CC5B500135651 /* main.m */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC647258184CC5B500135651 /* Images.xcassets in Resources */,
+				BCE3B00518560BE500B38D76 /* movie.mov in Resources */,
 				BC64724A184CC5B500135651 /* InfoPlist.strings in Resources */,
 				BC647253184CC5B500135651 /* Main.storyboard in Resources */,
 			);

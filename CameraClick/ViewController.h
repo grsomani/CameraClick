@@ -13,9 +13,9 @@
 @interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *cameraView;
-@property (weak, nonatomic) IBOutlet UIButton *startBtn;
 @property (weak, nonatomic) IBOutlet UIButton *galleryBtn;
 @property (strong, nonatomic) MPMoviePlayerController *moviePlayer;
+@property (strong, nonatomic)UIPopoverController *popoverController;
 @property (copy,   nonatomic) NSURL *movieURL;
 
 @end
